@@ -1,4 +1,4 @@
-package fr.utbm;
+package fr.utbm.main;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

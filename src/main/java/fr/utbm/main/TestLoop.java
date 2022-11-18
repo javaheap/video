@@ -1,3 +1,4 @@
+package fr.utbm.main;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 

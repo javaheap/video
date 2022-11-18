@@ -1,4 +1,4 @@
-package fr.utbm;
+package fr.utbm.main;
 
 import fr.utbm.entity.Movie;
 import fr.utbm.tools.HibernateUtil;
