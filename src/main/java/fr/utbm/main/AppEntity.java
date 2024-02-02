@@ -8,7 +8,7 @@ import fr.utbm.entity.Test;
 
 public class AppEntity {
 
-	private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("video");
+	private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("movie");
     private static EntityManager entityManager = emf.createEntityManager();
 
     public static void main(String[] args) {

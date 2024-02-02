@@ -10,10 +10,10 @@ services:
 
     environment:
       # NOTE: POSTGRES_DB/USER/PASSWORD should match values in db container
-        POSTGRES_PASSWORD: postgres
-        POSTGRES_USER: postgres
-        POSTGRES_DB: postgres
-        POSTGRES_HOSTNAME: postgresdb
+        POSTGRES_PASSWORD: movie
+        POSTGRES_USER: movie
+        POSTGRES_DB: movie
+        POSTGRES_HOSTNAME: postgres
 
     volumes:
       - ../..:/workspaces:cached
@@ -38,9 +38,9 @@ services:
       - postgres:/var/lib/postgresql/data
     environment:
       # NOTE: POSTGRES_DB/USER/PASSWORD should match values in app container
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_USER: postgres
-      POSTGRES_DB: postgres
+      POSTGRES_PASSWORD: movie
+      POSTGRES_USER: movie
+      POSTGRES_DB: movie
 
     # Add "forwardPorts": ["5432"] to **devcontainer.json** to forward PostgreSQL locally.
     # (Adding the "ports" property to this file will not forward from a Codespace.)

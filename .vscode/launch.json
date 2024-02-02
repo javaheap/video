@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AppHibernate",
+            "request": "launch",
+            "mainClass": "fr.utbm.main.AppHibernate",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "AppEntity",
+            "request": "launch",
+            "mainClass": "fr.utbm.main.AppEntity",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Launch App",
             "request": "launch",
             "cwd": "${workspaceFolder}",
@@ -10,6 +31,16 @@
             "mainClass": "com.mycompany.app.App",
             "args": "",
             "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TestLoop<my-app>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "TestLoop",
+            "projectName": "my-app",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
