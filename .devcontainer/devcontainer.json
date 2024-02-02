@@ -1,30 +1,54 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/java
 {
-	"name": "Java & PostgreSQL",
+	"name": "Java",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
-	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+	"features": {
+		"ghcr.io/devcontainers/features/java:1": {
+			"version": "21",
+			"installMaven": "true",
+			"mavenVersion": "3.8.6",
+			"installGradle": "false"
+		},
+		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+	},
 
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
 		"vscode": {
-			// Set *default* container specific settings.json values on container create.
-			"settings": { 
-			},
-			
-			// Add the IDs of extensions you want installed when the container is created.
+			"settings": {},
 			"extensions": [
-				"vscjava.vscode-java-pack"
+				"streetsidesoftware.code-spell-checker",
+				"ms-azuretools.vscode-docker",
+				"ckolkman.vscode-postgres",
+				"vscjava.vscode-java-debug",
+				"redhat.java",
+				"vscjava.vscode-java-pack",
+				"vscjava.vscode-java-dependency",
+				"vscjava.vscode-java-test",
+				"dbaeumer.vscode-eslint",
+				"shengchen.vscode-checkstyle",
+				"tintinweb.vscode-decompiler",
+				"alphabotsec.vscode-eclipse-keybindings",
+				"mhutchie.git-graph",
+				"vscjava.vscode-lombok",
+				"DavidAnson.vscode-markdownlint",
+				"vmware.vscode-boot-dev-pack",
+				"redhat.vscode-xml",
+				"redhat.vscode-yaml",
+				"itryapitsin.Sbt",
+				"Postman.postman-for-vscode",
+				"ms-azuretools.vscode-docker",
+				"mutantdino.resourcemonitor"
 			]
 		}
-	},
+	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// This can be used to network with other containers or with the host.
-	// "forwardPorts": [5432],
+	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "java -version",
