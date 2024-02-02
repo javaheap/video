@@ -4,6 +4,34 @@
             "type": "java",
             "name": "AppHibernate",
             "request": "launch",
+            "mainClass": "fr.utbm.AppHibernate",
+            "projectName": "movie"
+        },
+        {
+            "type": "java",
+            "name": "AppEntity",
+            "request": "launch",
+            "mainClass": "fr.utbm.AppEntity",
+            "projectName": "movie"
+        },
+        {
+            "type": "java",
+            "name": "AppHibernate",
+            "request": "launch",
+            "mainClass": "fr.utbm.AppHibernate",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "AppEntity",
+            "request": "launch",
+            "mainClass": "fr.utbm.AppEntity",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "AppHibernate",
+            "request": "launch",
             "mainClass": "fr.utbm.main.AppHibernate",
             "projectName": "my-app"
         },

@@ -1,14 +1,14 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:video
-    driverClassName: org.h2.Driver
-    username: sa
-    password:
+    url: jdbc:postgresql://localhost:5432/movie
+    driverClassName: org.postgresql.Driver
+    username: movie
+    password: movie
   jpa:
     open-in-view: false
     hibernate:
       ddl-auto: update
-    database-platform: org.hibernate.dialect.H2Dialect
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
   h2:
     console:

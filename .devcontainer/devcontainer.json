@@ -10,7 +10,7 @@
 		"ghcr.io/devcontainers/features/java:1": {
 			"version": "21",
 			"installMaven": "true",
-			"mavenVersion": "3.8.6",
+			"mavenVersion": "3.9.5",
 			"installGradle": "false"
 		},
 		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
@@ -24,7 +24,6 @@
 			"extensions": [
 				"streetsidesoftware.code-spell-checker",
 				"ms-azuretools.vscode-docker",
-				"ckolkman.vscode-postgres",
 				"vscjava.vscode-java-debug",
 				"redhat.java",
 				"vscjava.vscode-java-pack",
@@ -43,7 +42,9 @@
 				"itryapitsin.Sbt",
 				"Postman.postman-for-vscode",
 				"ms-azuretools.vscode-docker",
-				"mutantdino.resourcemonitor"
+				"mutantdino.resourcemonitor",
+				"mtxr.sqltools",
+				"mtxr.sqltools-driver-pg"
 			]
 		}
 	}
