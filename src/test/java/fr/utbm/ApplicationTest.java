@@ -5,12 +5,13 @@ import org.junit.Test;
 import static org.junit.Assert.assertTrue;
 
 
-public class AppTest {
-    public AppTest() {
+public class ApplicationTest {
+    public ApplicationTest() {
+        
     }
 
     @Test
-    public void testApp() {S
+    public void testApp() {
         assertTrue(true);
     }
 
