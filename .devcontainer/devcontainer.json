@@ -41,8 +41,7 @@
 				"Postman.postman-for-vscode",
 				"ms-azuretools.vscode-docker",
 				"mutantdino.resourcemonitor",
-				"mtxr.sqltools",
-				"mtxr.sqltools-driver-pg"
+				"cweijan.vscode-postgresql-client2"
 			]
 		}
 	},
